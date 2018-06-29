@@ -23,5 +23,8 @@ bot.on( 'message', message => {
     if (message.content === prefix + 'code'){
         message.reply("https://github.com/Doxteur/botdiscorddoxteur/blob/master/index.js");
     }
+    if (message.content === prefix + 'rankup'){
+        message.member.addRole('193654001089118208');
+    }
 
 });
