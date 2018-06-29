@@ -19,3 +19,9 @@ bot.on( 'message', message => {
     }
 
 });
+bot.on( 'message', message => {
+    if (message.content === prefix + 'code'){
+        message.reply("https://github.com/Doxteur/botdiscorddoxteur/blob/master/index.js");
+    }
+
+});
