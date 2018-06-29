@@ -9,11 +9,11 @@ bot.on('ready', function() {
 
 });
 
-bot.login((process.env.TOKEN));
+bot.login(process.env.TOKEN);
 
 bot.on( 'message', message => {
     if (message.content === prefix + 'pong'){
-        message.reply("Suce ma queue");
+        message.reply("ping");
     }
 
 });
