@@ -4,6 +4,7 @@ const bot = new Discord.Client();
 var prefix = ('*');
 
 bot.on('ready', function() {
+    bot.user.setAvatar('./cookie.png')
     bot.user.setGame('Bz des meres');
     console.log('Connected');
 
