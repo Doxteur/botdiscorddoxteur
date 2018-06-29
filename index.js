@@ -14,8 +14,8 @@ bot.on('ready', function() {
 bot.login(process.env.TOKEN);
 
 bot.on( 'message', message => {
-    if (message.content === prefix + 'pong'){
-        message.reply("ping");
+    if (message.content === prefix + 'epic'){
+        message.reply("https://www.youtube.com/watch?v=XYKUeZQbMF0");
     }
 
 });
